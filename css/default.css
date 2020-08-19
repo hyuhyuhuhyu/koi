@@ -70,7 +70,7 @@ footer { width:80%; margin:0 auto; margin-bottom: 50px; }
 
 /*contents*/
 .greet { text-align: center; margin-top: 50vh; }
-.greet h2 { margin-top: 20px; margin-bottom: 70px; }
+.greet h2 { margin-top: 20px; margin-bottom: 50px; }
 .greet h3 { margin-bottom: 20px; line-height: 150%; }
 .greet img { width: 100%; }
 .greet a { color: #e50112; font-size: 1.2em; }
