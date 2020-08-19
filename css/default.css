@@ -60,22 +60,51 @@ footer { width:80%; margin:0 auto; margin-bottom: 20px; }
 .shop { text-align: center; position: relative; z-index: 0; }
 .shop .shop-btn { font-size: 4em; background: white; border: #e50112 solid 3px; border-radius: 50%; padding:25px; margin-bottom: 100px; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);  }
 
-footer { font-size: 0.7em; margin-top: 180px; text-align: left; }
-footer ul li { float: left; margin-right:5px; }
-footer::after { content: ""; display: block; clear: both; }
 
 
-@media all and (max-width:600px) {
+
+
+/* footer */
+footer { font-size: 0.7em; margin-top: 180px; text-align: left; display: flex; flex-wrap: wrap; }
+
+.news { margin-right: 8%; width:230px; order: 1; }
+#text { outline: none; border: 0; height: 40px; width: 200px; }
+.news-form { border-bottom: 2px solid black; }
+.submit { width: 25px; }
+
+.sns { margin-right: 8%; order: 2; }
+.sns ul { display: flex; }
+.sns ul li { margin-right: 15px; }
+.sns h3 { margin-bottom: 13px; }
+
+.info { order: 3; }
+
+.blind { position:absolute; top:-9999px; }
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:680px) {
     .contents { width:90%; }
     .visr img { opacity: 0; }
     .visl img { width: 95vw; max-height:700px;}
     footer { margin-top: 80px; }
+    .sns,.news { margin-bottom: 30px; }
     .shop .shop-btn { font-size: 2em; padding: 17px; }
     .greet h3,p { text-align: left; }
     .menu { top:150px; }
     .logo { width:100px; }
+    .news { width: 100%; }
+    #text { width: 89%; }
 }
 
-@media all and (min-width:600px) and (max-width:1450px) { /* 스마트폰 */
+@media all and (min-width:680px) and (max-width:1450px) { /* 스마트폰 */
     .visr img { opacity: 0; }
 }
