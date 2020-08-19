@@ -65,7 +65,7 @@ footer { width:80%; margin:0 auto; margin-bottom: 20px; }
 
 
 /* footer */
-footer { font-size: 0.7em; margin-top: 180px; text-align: left; display: flex; flex-wrap: wrap; }
+footer { font-size: 0.7em; margin-top: 180px; text-align: left; display: flex; justify-content: center; flex-wrap: wrap; }
 
 .news { margin-right: 8%; width:230px; order: 1; }
 #text { outline: none; border: 0; height: 40px; width: 200px; }
