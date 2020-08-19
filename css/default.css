@@ -16,6 +16,24 @@ a { text-decoration: none; color: #e50112; font-weight: 600; }
 a:hover { color: #e50112; font-style: italic; }
 
 
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    opacity:0;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e50112; 
+  }
+
+
+
 /*layout*/
 .visual { position: fixed; top:0; left:0; width:100%; height:100vh;  text-align: center; z-index: -1000; }
 .contents { width:80%; margin:0 auto; margin-bottom: 100px; }
