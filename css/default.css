@@ -12,8 +12,8 @@ ul,li,ol { list-style:none; }
 img,fieldset,iframe { border:0; }
 img { vertical-align:top; max-width: 1300px; }
 table { border-collapse:collapse; }
-a { text-decoration: none; color: #e50112; font-weight: 600; }
-a:hover { color: #e50112; font-style: italic; }
+a { text-decoration: none; color: #d92724; font-weight: 600; }
+a:hover { color: #d92724; font-style: italic; }
 
 
 /* scroll bar */
@@ -29,7 +29,7 @@ a:hover { color: #e50112; font-style: italic; }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #e50112; 
+    background: #d92724; 
   }
 
 
@@ -47,7 +47,7 @@ a:hover { color: #e50112; font-style: italic; }
 
 
 .btn { position: absolute; left:20px; top:20px; width:30px; height:25px; cursor: pointer; z-index: 0; }
-.line { transition: .5s; width:30px; height:4px; background:#e50112; position: absolute; right:0px; }
+.line { transition: .5s; width:30px; height:4px; background:#d92724; position: absolute; right:0px; }
 .n1 { top:0px; }
 .n2 { top:12px; }
 .n3 { top:23px; }
@@ -75,7 +75,7 @@ a:hover { color: #e50112; font-style: italic; }
 .greet a { color: #e50112; font-size: 1.2em; }
 
 .shop { text-align: center; position: relative; z-index: 0; }
-.shop .shop-btn { font-size: 4em; background: white; border: #e50112 solid 3px; border-radius: 50%; padding:25px; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);  }
+.shop .shop-btn { font-size: 4em; background: white; border: #d92724 solid 3px; border-radius: 50%; padding:25px; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);  }
 
 
 
